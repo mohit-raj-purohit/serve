@@ -25,6 +25,9 @@ const [parseError, args] = await resolve(parseArguments());
 // Either TSC complains that `args` is undefined (which it shouldn't), or ESLint
 // rightfully complains of an unnecessary condition.
 // eslint-disable-next-line @typescript-eslint/no-unnecessary-condition
+
+console.log("mohit raj");
+
 if (parseError || !args) {
   logger.error(parseError.message);
   exit(1);
