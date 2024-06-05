@@ -10,10 +10,13 @@ import clipboard from 'clipboardy';
 // package.json
 var package_default = {
   name: 'serve',
-  version: '14.2.3',
+  version: '14.2.4',
   description: 'Static file serving and directory listing',
   keywords: ['vercel', 'serve', 'micro', 'http-server'],
-  repository: 'vercel/serve',
+  repository: {
+    type: 'git',
+    url: 'git+https://github.com/mohit-raj-purohit/serve.git',
+  },
   license: 'MIT',
   type: 'module',
   bin: {
