@@ -3,7 +3,7 @@
 
 node_modules/
 coverage/
-build/
+# build/
 .cache/
 .idea/
 .vscode/
